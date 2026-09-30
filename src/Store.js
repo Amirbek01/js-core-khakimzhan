@@ -52,10 +52,10 @@ export class Store {
     }
 
     total() {
-        return this.#items.reduce((sum, item) => {
-            return sum + item.price * item.qty;
-        }, 0);
-    }
+    return this.#items.reduce((sum, { price, qty }) => {
+        return sum + price * qty;
+    }, 0);
+}
 
     all() {
         return this.#items.map(item => ({ ...item }));
@@ -69,3 +69,4 @@ export class SortedStore extends Store {
         });
     }
 }
+
