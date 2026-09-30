@@ -1,0 +1,28 @@
+{
+  "name": "js-core-khakimzhan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirbek01/js-core-khakimzhan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amirbek01/js-core-khakimzhan/issues"
+  },
+  "homepage": "https://github.com/Amirbek01/js-core-khakimzhan#readme",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  },
+  "type": "module"
+}
